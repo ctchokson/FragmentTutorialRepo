@@ -29,6 +29,7 @@ public class FragmentImage extends Fragment
 
     @Override
     public void onStart() {
+        //My onstart method.
         super.onStart();
         Bundle argument=getArguments();
         if(argument!=null)
