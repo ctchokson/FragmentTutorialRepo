@@ -46,6 +46,7 @@ public class FragmentImage extends Fragment
         if(view!=null)
         {
             view.setImageResource(drawables[position]);
+            //update currentposition
             currentPosition=position;
         }
     }
